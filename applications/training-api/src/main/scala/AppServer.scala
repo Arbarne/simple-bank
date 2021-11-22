@@ -5,6 +5,7 @@ import config.Config
 import routes.BankRoutes
 
 import cats.effect.{Blocker, ExitCode, IO, IOApp}
+import fr.fpe.school.model.Account
 import fs2.Stream
 import org.http4s.blaze.server.BlazeServerBuilder
 import org.http4s.implicits._
